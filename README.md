@@ -28,3 +28,18 @@ cmake ..
 make -j8
 
 ./daheng_demo <相机序列号>
+## 实机运行效果
+
+测试设备：Daheng Imaging MER2-230-168U3C-L
+
+实机测试帧率约 99 FPS。
+
+![工业相机实时取流效果](assets/camera_demo.png)
+
+## 实机运行效果
+
+测试设备：Daheng Imaging MER2-230-168U3C-L
+
+实机测试帧率约 99 FPS。
+
+![工业相机实时取流效果](assets/camera_demo.png)
