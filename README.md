@@ -4,12 +4,12 @@
 
 ## 完成功能
 
-- Galaxy SDK 枚举并打开大恒工业相机
-- 根据序列号选择设备
-- 曝光、增益、伽马参数调节
+- 使用 Galaxy SDK 枚举并打开大恒工业相机
+- 根据相机序列号选择设备
+- 支持曝光、增益、伽马参数调节
 - Bayer 图像转换为 BGR
-- OpenCV 实时显示图像
-- 实时 FPS 显示
+- 使用 OpenCV 实时显示图像
+- 实时显示 FPS
 - 使用 rm_log（基于 spdlog）统一输出调试日志
 - 日志同时输出到终端和日志文件
 
@@ -28,18 +28,4 @@ cmake ..
 make -j8
 
 ./daheng_demo <相机序列号>
-## 实机运行效果
-
-测试设备：Daheng Imaging MER2-230-168U3C-L
-
-实机测试帧率约 99 FPS。
-
-![工业相机实时取流效果](assets/camera_demo.png)
-
-## 实机运行效果
-
-测试设备：Daheng Imaging MER2-230-168U3C-L
-
-实机测试帧率约 99 FPS。
-
-![工业相机实时取流效果](assets/camera_demo.png)
+```
